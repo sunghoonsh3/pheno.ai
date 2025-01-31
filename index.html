@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pheno.ai - Revolutionizing Plant Phenotyping</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          sans-serif;
+      }
+
+      .hero {
+        background: linear-gradient(135deg, #f0fff4, #e6ffea);
+        padding: 80px 20px;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+
+      .hero h1 {
+        font-size: 48px;
+        color: #1a202c;
+        margin-bottom: 24px;
+      }
+
+      .hero p {
+        font-size: 20px;
+        color: #4a5568;
+        max-width: 700px;
+        margin: 0 auto 32px;
+        line-height: 1.6;
+      }
+
+      .section {
+        padding: 80px 20px;
+      }
+
+      .section h2 {
+        font-size: 36px;
+        margin-bottom: 24px;
+        color: #1a202c;
+      }
+
+      .section p {
+        color: #4a5568;
+        line-height: 1.8;
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+
+      .problem {
+        background: white;
+      }
+
+      .solution {
+        background: #f8fafc;
+      }
+
+      .market {
+        background: white;
+      }
+
+      .customers {
+        background: #f8fafc;
+      }
+
+      .team {
+        background: white;
+      }
+
+      .team-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 32px;
+        margin-top: 40px;
+      }
+
+      .team-member {
+        padding: 24px;
+        border: 1px solid #e2e8f0;
+        border-radius: 12px;
+        transition: all 0.3s ease;
+      }
+
+      .team-member:hover {
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      }
+
+      .team-member h3 {
+        font-size: 24px;
+        margin-bottom: 8px;
+        color: #1a202c;
+      }
+
+      .team-member p {
+        font-size: 16px;
+        margin-bottom: 8px;
+      }
+
+      .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 32px;
+        margin: 40px 0;
+        text-align: center;
+      }
+
+      .stat {
+        font-size: 42px;
+        color: #059669;
+        font-weight: bold;
+        margin-bottom: 8px;
+      }
+
+      .stat-description {
+        font-size: 16px;
+        color: #4a5568;
+        line-height: 1.4;
+      }
+
+      .highlight {
+        color: #059669;
+        font-weight: 500;
+      }
+
+      .market-segment {
+        border-left: 4px solid #059669;
+        padding-left: 20px;
+        margin: 20px 0;
+      }
+
+      .market-segment h3 {
+        color: #1a202c;
+        font-size: 20px;
+        margin-bottom: 8px;
+      }
+
+      @media (max-width: 768px) {
+        .hero h1 {
+          font-size: 36px;
+        }
+
+        .section h2 {
+          font-size: 30px;
+        }
+
+        .team-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="hero">
+      <div class="container">
+        <h1>Revolutionizing Plant Phenotyping Through AI</h1>
+        <p>
+          We're university students passionate about transforming agricultural
+          research with cutting-edge AI technology.
+        </p>
+      </div>
+    </header>
+
+    <section class="section problem">
+      <div class="container">
+        <h2>The Plant Phenotyping Challenge</h2>
+        <p>
+          Plant phenotyping is the cornerstone of modern plant breeding, but
+          current methods are holding back innovation:
+        </p>
+        <div class="stats-grid">
+          <div class="stat-block">
+            <div class="stat">70%</div>
+            <div class="stat-description">
+              Of breeding time spent on manual phenotyping tasks
+            </div>
+          </div>
+          <div class="stat-block">
+            <div class="stat">$4.3B</div>
+            <div class="stat-description">
+              Annual cost of manual phenotyping globally
+            </div>
+          </div>
+          <div class="stat-block">
+            <div class="stat">8-12</div>
+            <div class="stat-description">
+              Years to develop new crop varieties
+            </div>
+          </div>
+        </div>
+        <p>
+          Current manual methods are labor-intensive, time-consuming, and prone
+          to human error. This bottleneck significantly slows down the
+          development of improved crop varieties needed for global food
+          security.
+        </p>
+      </div>
+    </section>
+
+    <section class="section solution">
+      <div class="container">
+        <h2>The AI-Powered Solution</h2>
+        <p>
+          We're developing computer vision and AI technologies to transform
+          plant phenotyping:
+        </p>
+        <div class="market-segment">
+          <h3>Automated Trait Analysis</h3>
+          <p>
+            Machine learning algorithms that can automatically measure plant
+            height, leaf area, disease resistance, and other crucial traits from
+            images.
+          </p>
+        </div>
+        <div class="market-segment">
+          <h3>Real-time Monitoring</h3>
+          <p>
+            Continuous tracking of plant growth and development, enabling early
+            detection of issues and faster breeding cycles.
+          </p>
+        </div>
+        <div class="market-segment">
+          <h3>Data-Driven Decisions</h3>
+          <p>
+            Advanced analytics to help breeders make more informed selections
+            and accelerate the breeding process.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section market">
+      <div class="container">
+        <h2>Market Opportunity</h2>
+        <div class="stats-grid">
+          <div class="stat-block">
+            <div class="stat">$5.5B</div>
+            <div class="stat-description">
+              Global plant phenotyping market size (2023)
+            </div>
+          </div>
+          <div class="stat-block">
+            <div class="stat">11.8%</div>
+            <div class="stat-description">Expected CAGR through 2030</div>
+          </div>
+          <div class="stat-block">
+            <div class="stat">$12.5B</div>
+            <div class="stat-description">Projected market size by 2030</div>
+          </div>
+        </div>
+        <p>
+          The plant phenotyping market is experiencing rapid growth driven by
+          increasing demand for food security, climate-resilient crops, and
+          technological advancement in agriculture.
+        </p>
+      </div>
+    </section>
+
+    <section class="section customers">
+      <div class="container">
+        <h2>Target Market</h2>
+        <div class="market-segment">
+          <h3>Seed Companies</h3>
+          <p>
+            Major seed producers spending $2.5B+ annually on R&D, looking to
+            accelerate breeding programs.
+          </p>
+        </div>
+        <div class="market-segment">
+          <h3>Research Institutions</h3>
+          <p>
+            Universities and agricultural research centers conducting crop
+            improvement studies.
+          </p>
+        </div>
+        <div class="market-segment">
+          <h3>Government Agencies</h3>
+          <p>
+            Agricultural departments and research organizations focused on food
+            security and crop improvement.
+          </p>
+        </div>
+        <div class="market-segment">
+          <h3>Agtech Companies</h3>
+          <p>
+            Technology companies developing integrated solutions for modern
+            agriculture.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section team">
+      <div class="container">
+        <h2>Our Team</h2>
+        <p>
+          Young innovators passionate about combining cutting-edge technology
+          with agricultural advancement:
+        </p>
+        <div class="team-grid">
+          <div class="team-member">
+            <h3>Tristan Shin</h3>
+            <p>Junior studying Computer Science</p>
+            <p class="highlight">Incoming Bessemer Venture Fellow</p>
+            <p>Specializing in Agentic AI Research</p>
+          </div>
+          <div class="team-member">
+            <h3>John Kim</h3>
+            <p>Junior studying Computer Science</p>
+            <p class="highlight">Incoming Amazon AI/ML Intern</p>
+            <p>Focus on Machine Learning and AI Systems</p>
+          </div>
+          <div class="team-member">
+            <h3>Karita Nguyen</h3>
+            <p>Sophomore studying ACMS</p>
+            <p class="highlight">Incoming NASA Intern</p>
+            <p>Applied Mathematics and Computational Science</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
