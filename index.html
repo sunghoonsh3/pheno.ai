@@ -5,6 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pheno.ai - Revolutionizing Plant Phenotyping</title>
     <link rel="stylesheet" href="styles.css" />
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const formContainer = document.getElementById("signup-form-container");
+
+        // Simulating website being "live" by checking a variable (change this as needed)
+        const websiteLive = true;
+
+        if (websiteLive) {
+          formContainer.style.display = "block";
+        }
+      });
+
+      function validateForm(event) {
+        event.preventDefault(); // Prevents default form submission behavior
+
+        const name = document.getElementById("name").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const message = document.getElementById("signup-message");
+
+        if (!name || !email) {
+          message.textContent = "Please fill out both fields.";
+          message.style.color = "red";
+          return;
+        }
+
+        message.textContent = "Thank you for signing up!";
+        message.style.color = "green";
+
+        // You can send form data to a server here using fetch/AJAX.
+      }
+    </script>
   </head>
   <body>
     <header class="hero">
@@ -16,7 +47,8 @@
         </p>
       </div>
     </header>
-    
+
+    <section class="section problem">
       <div class="container">
         <h2>The Plant Phenotyping Challenge</h2>
         <p>
@@ -43,14 +75,9 @@
             </div>
           </div>
         </div>
-        <p>
-          Current manual methods are labor-intensive, time-consuming, and prone
-          to human error. This bottleneck significantly slows down the
-          development of improved crop varieties needed for global food
-          security.
-        </p>
       </div>
     </section>
+
     <section class="section solution">
       <div class="container">
         <h2>The AI-Powered Solution</h2>
@@ -82,62 +109,23 @@
         </div>
       </div>
     </section>
-    <section class="section market">
+
+    <!-- Sign-Up Form -->
+    <section class="section signup">
       <div class="container">
-        <h2>Market Opportunity</h2>
-        <div class="stats-grid">
-          <div class="stat-block">
-            <div class="stat">$5.5B</div>
-            <div class="stat-description">
-              Global plant phenotyping market size (2023)
-            </div>
-          </div>
-          <div class="stat-block">
-            <div class="stat">11.8%</div>
-            <div class="stat-description">Expected CAGR through 2030</div>
-          </div>
-          <div class="stat-block">
-            <div class="stat">$12.5B</div>
-            <div class="stat-description">Projected market size by 2030</div>
-          </div>
-        </div>
+        <h2>Stay Updated</h2>
         <p>
-          The plant phenotyping market is experiencing rapid growth driven by
-          increasing demand for food security, climate-resilient crops, and
-          technological advancement in agriculture.
+          Join our mailing list to receive updates about our AI-powered plant
+          phenotyping technology.
         </p>
-      </div>
-    </section>
-    <section class="section customers">
-      <div class="container">
-        <h2>Target Market</h2>
-        <div class="market-segment">
-          <h3>Seed Companies</h3>
-          <p>
-            Major seed producers spending $2.5B+ annually on R&D, looking to
-            accelerate breeding programs.
-          </p>
-        </div>
-        <div class="market-segment">
-          <h3>Research Institutions</h3>
-          <p>
-            Universities and agricultural research centers conducting crop
-            improvement studies.
-          </p>
-        </div>
-        <div class="market-segment">
-          <h3>Government Agencies</h3>
-          <p>
-            Agricultural departments and research organizations focused on food
-            security and crop improvement.
-          </p>
-        </div>
-        <div class="market-segment">
-          <h3>Agtech Companies</h3>
-          <p>
-            Technology companies developing integrated solutions for modern
-            agriculture.
-          </p>
+
+        <div id="signup-form-container" style="display: none">
+          <form id="signup-form" onsubmit="validateForm(event)">
+            <input type="text" id="name" placeholder="Your Name" required />
+            <input type="email" id="email" placeholder="Your Email" required />
+            <button type="submit">Sign Up</button>
+          </form>
+          <p id="signup-message"></p>
         </div>
       </div>
     </section>
