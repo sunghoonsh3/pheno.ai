@@ -168,3 +168,87 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* Sign-Up Section */
+.section.signup {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.section.signup h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.section.signup .subheading {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+#signup-form-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+.form-group label {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 1rem;
+  color: #999;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.form-group input:focus + label,
+.form-group input:not(:placeholder-shown) + label {
+  top: -10px;
+  left: 10px;
+  font-size: 0.9rem;
+  color: #3498db;
+  background-color: #f9f9f9;
+  padding: 0 5px;
+}
+
+.cta-button {
+  width: 100%;
+  padding: 15px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #2980b9;
+}
+
+#signup-message {
+  margin-top: 20px;
+  font-size: 1rem;
+}

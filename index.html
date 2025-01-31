@@ -110,26 +110,6 @@
       </div>
     </section>
 
-    <!-- Sign-Up Form -->
-    <section class="section signup">
-      <div class="container">
-        <h2>Stay Updated</h2>
-        <p>
-          Join our mailing list to receive updates about our AI-powered plant
-          phenotyping technology.
-        </p>
-
-        <div id="signup-form-container" style="display: none">
-          <form id="signup-form" onsubmit="validateForm(event)">
-            <input type="text" id="name" placeholder="Your Name" required />
-            <input type="email" id="email" placeholder="Your Email" required />
-            <button type="submit">Sign Up</button>
-          </form>
-          <p id="signup-message"></p>
-        </div>
-      </div>
-    </section>
-
     <section class="section team">
       <div class="container">
         <h2>Our Team</h2>
@@ -163,6 +143,37 @@
             <p class="highlight">Incoming NASA Intern</p>
             <p>Experience in data science and machine learning</p>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sign-Up Form -->
+    <section class="section signup">
+      <div class="container">
+        <h2>Stay Updated</h2>
+        <p class="subheading">
+          Join our mailing list to receive updates about our AI-powered plant
+          phenotyping technology.
+        </p>
+
+        <div id="signup-form-container" style="display: none">
+          <form id="signup-form" onsubmit="validateForm(event)">
+            <div class="form-group">
+              <input type="text" id="name" placeholder="Your Name" required />
+              <label for="name">Name</label>
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                id="email"
+                placeholder="Your Email"
+                required
+              />
+              <label for="email">Email</label>
+            </div>
+            <button type="submit" class="cta-button">Sign Up</button>
+          </form>
+          <p id="signup-message"></p>
         </div>
       </div>
     </section>
