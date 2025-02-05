@@ -17,6 +17,7 @@ We focused on:
 3. Evaluating potential impacts on agricultural sustainability.
 
 🏅 Competition & Recognition
+
 Event: Tri-Continental Food Sustainability Innovation Challenge
 
 Duration: 4 hours
