@@ -18,8 +18,11 @@ We focused on:
 
 🏅 Competition & Recognition
 Event: Tri-Continental Food Sustainability Innovation Challenge
+
 Duration: 4 hours
+
 Outcome: Runner-Up Prize ($250 per team)
+
 Team Strength: AI-powered research and ideation
 
 Although Pheno.AI remains an ideation project, our experience in applying AI to sustainability challenges was both insightful and rewarding!
