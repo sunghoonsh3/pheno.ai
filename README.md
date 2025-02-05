@@ -12,9 +12,9 @@ Improve accuracy in detecting key plant characteristics.
 During the challenge, we utilized AI research tools like Perplexity Pro Search to explore key issues in agriculture and sustainability. Our research led us to phenotyping bottlenecks, and we saw an opportunity to apply AI to streamline the process.
 
 We focused on:
-🔍 Identifying current inefficiencies in phenotyping.
-🤖 Exploring AI applications in plant science.
-📊 Evaluating potential impacts on agricultural sustainability.
+1. Identifying current inefficiencies in phenotyping.
+2. Exploring AI applications in plant science.
+3. Evaluating potential impacts on agricultural sustainability.
 
 🏅 Competition & Recognition
 Event: Tri-Continental Food Sustainability Innovation Challenge
